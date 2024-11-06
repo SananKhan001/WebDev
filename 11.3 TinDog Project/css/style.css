@@ -17,13 +17,15 @@
 }
 
 .icon-square {
-  width: 3rem;
+  width: 2rem;
   height: 3rem;
   border-radius: 0.75rem;
+  margin-left: 2rem;
 }
 
 .profile-img {
   height: 100px;
+  width: fit-content;
   border-radius: 50%;
 }
 
@@ -34,4 +36,34 @@
   align-content: center;
   border-radius: 15%;
   background-color: transparent;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-row, .testimonial-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+}
+
+#testimonial {
+  background-color: rgba(0, 0, 0, 0.068);
+}
+
+.testimonial-container {
+  padding-bottom: 7rem; 
+  padding-top: 7rem;
+}
+
+.features-container {
+  padding-top: 7rem !important;
+  padding-bottom: 7rem !important;
 }
